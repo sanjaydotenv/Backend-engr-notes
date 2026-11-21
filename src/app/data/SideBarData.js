@@ -196,7 +196,7 @@ export const curriculumLevels = [
       createChapter(
         16,
         "Authentication",
-        "Authentication vs Authorization|Password Security|Password Hashing|bcrypt|Session-Based Authentication|Cookies|HTTP-only Cookies|JWT|Access Token|Refresh Token|Token Expiration|Token Rotation|OAuth 2.0|Google OAuth|OTP Authentication|Email Verification|Password Reset",
+        "Authentication vs Authorization|Password Security|Password Hashing|bcrypt|Session-Based Authentication|HTTP-only Cookies|JWT|Access Token|Refresh Token|Token Expiration|Token Rotation|OAuth 2.0|Google OAuth|OTP Authentication|Email Verification|Password Reset",
       ),
 
       // CHAPTER 17

@@ -15,6 +15,7 @@ import { databaseFundamentalsRoutes } from "./Routes/DatabaseFundamentals.routes
 import { mongoDBRoutes } from "./Routes/MongoDB.Routes";
 import { mongooseRoutes } from "./Routes/Mongoose.routes";
 import { advancedDatabaseRoutes } from "./Routes/AdvancedDatabase.routes";
+import { authenticationRoutes } from "./Routes/Authentication.Routes";
 
 const AppRoutes = () => {
   const router = createBrowserRouter([
@@ -36,7 +37,8 @@ const AppRoutes = () => {
         ...databaseFundamentalsRoutes,
         ...mongoDBRoutes,
         ...mongooseRoutes,
-        ...advancedDatabaseRoutes
+        ...advancedDatabaseRoutes,
+        ...authenticationRoutes,
       ],
     },
   ]);
