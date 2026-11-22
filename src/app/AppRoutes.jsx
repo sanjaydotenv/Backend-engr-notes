@@ -17,6 +17,8 @@ import { mongooseRoutes } from "./Routes/Mongoose.routes";
 import { advancedDatabaseRoutes } from "./Routes/AdvancedDatabase.routes";
 import { authenticationRoutes } from "./Routes/Authentication.Routes";
 import { BackendSecurityroutes } from "./Routes/BackendSecurity.routes";
+import { FileHandlingRoutes } from "./Routes/FileHandling.Routes";
+import { RealTimeCommunication } from "./Routes/RealTimeCommunication.Routes";
 
 const AppRoutes = () => {
   const router = createBrowserRouter([
@@ -41,6 +43,8 @@ const AppRoutes = () => {
         ...advancedDatabaseRoutes,
         ...authenticationRoutes,
         ...BackendSecurityroutes,
+        ...FileHandlingRoutes,
+        ...RealTimeCommunication
       ],
     },
   ]);

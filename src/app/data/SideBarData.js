@@ -223,7 +223,7 @@ export const curriculumLevels = [
       createChapter(
         18,
         "File Handling",
-        "Node.js File System|Multipart Form Data|Multer|File Upload|File Validation|File Compression|Cloudinary|ImageKit|Streaming Files|Presigned URLs",
+        "Node.js File System|Multipart Form Data|Multer|File Validation|File Compression|Cloudinary|ImageKit|Streaming Files|Presigned URLs",
       ),
 
       // CHAPTER 19
@@ -231,7 +231,7 @@ export const curriculumLevels = [
       createChapter(
         19,
         "Real-Time Communication",
-        "What is Real-Time Communication?|WebSockets|WebSocket Handshake|Socket.IO|Events|Rooms|Namespaces|Broadcasting|Real-Time Notifications|Chat Application",
+        "What is Real-Time Communication?|WebSockets|WebSocket Handshake|Socket.IO|Rooms|Namespaces|Broadcasting|Real-Time Notifications|Chat Application",
       ),
 
       // CHAPTER 20
