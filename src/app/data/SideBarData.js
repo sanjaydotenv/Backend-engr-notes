@@ -204,7 +204,7 @@ export const curriculumLevels = [
       createChapter(
         17,
         "Backend Security",
-        "CORS Security|Input Validation|Input Sanitization|SQL Injection|NoSQL Injection|XSS|CSRF|Rate Limiting|Brute Force Protection|Helmet|Security Headers|Content Security Policy (CSP)|Secure Cookies|Environment Secrets|Secrets Management|Encryption|TLS|Dependency Security|OWASP Top 10",
+        "CORS Security|Input Sanitization|SQL Injection|NoSQL Injection|XSS|CSRF|Rate Limiting|Brute Force Protection|Helmet|Security Headers|Content Security Policy (CSP)|Secure Cookies|Environment Secrets|Secrets Management|Encryption|TLS|Dependency Security|OWASP Top 10",
       ),
     ],
   },
