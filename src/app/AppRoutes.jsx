@@ -21,6 +21,7 @@ import { FileHandlingRoutes } from "./Routes/FileHandling.Routes";
 import { RealTimeCommunication } from "./Routes/RealTimeCommunication.Routes";
 import { BackendProcessingRoutes } from "./Routes/BackgroundProcessing.Routes";
 import { CachingRoutes } from "./Routes/Caching.Routes";
+import { TestingRoutes } from "./Routes/Testing.Routes";
 
 const AppRoutes = () => {
   const router = createBrowserRouter([
@@ -49,6 +50,7 @@ const AppRoutes = () => {
         ...RealTimeCommunication,
         ...BackendProcessingRoutes,
         ...CachingRoutes,
+        ...TestingRoutes,
       ],
     },
   ]);
