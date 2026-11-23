@@ -247,7 +247,7 @@ export const curriculumLevels = [
       createChapter(
         21,
         "Caching",
-        "What is Caching?|Why Caching?|In-Memory Cache|Redis|Cache-Aside|Write-Through|Write-Back|Cache Invalidation|TTL|Distributed Caching",
+        "What is Caching?|Why Caching?|In-Memory Cache|Cache-Aside|Write-Through|Write-Back|Cache Invalidation|TTL|Distributed Caching",
       ),
 
       // CHAPTER 22
